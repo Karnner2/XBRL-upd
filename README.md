@@ -1,11 +1,11 @@
 # XBRL-upd
-An updated CRAN-based XBRL package to integrate with finstr-upd (Forked from Bergnant/Finstr)
+An updated CRAN-based XBRL package to integrate with finstr-upd (Forked from Bergant/Finstr)
 Update corrects the http/https error that XBRL suffers from in collecting the Schemas (.xsd).
 Adjustment was suggested by a rather unknown user at StackExchange.
 
 I became tired editing the source everytime I closed my R-sessions or switched projects and the issue became particularly troublesome when I began integrating XBRL into Sweave/Knitr situations because they compile under independent global environments. 
 
-I have taken the source from XBRL and from Finstr (forked from Bergnant/finstr) and made adjustments so that the packages will work stand-alone with the current SEC-EDGAR adjustments for XML/XBRL data files. 
+I have taken the source from XBRL and from Finstr (forked from Bergant/finstr) and made adjustments so that the packages will work stand-alone with the current SEC-EDGAR adjustments for XML/XBRL data files. 
 
 ## Uses in International XBRL
 Testing shows that the extraction will work generally with any XBRL taxonomy including sourced from Companies House UK, Edinet (Japan), Shanghai and Shenzen exchanges (China), and SEDGAR (Canada). I believe the Taxonomy extraction will work with any XBRL financial report/statement set but I have not tested them all. 
