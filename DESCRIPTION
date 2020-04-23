@@ -3,19 +3,19 @@ Type: Package
 Title: Extraction of Business Financial Information from 'XBRL'
         Documents
 Version: 1.00.00
-Date: 2017-03-27
+Date: 2020-04-23
 Author: Roberto Bertolusso, edit Jonathan T. Fluharty
-Maintainer: Roberto Bertolusso <rbertolusso@rice.edu>
+Maintainer: Jonathan T. Fluharty <Jonathan.Fluarty@mail.wvu.edu>
 Description: 
   Functions to extract business financial information from
   an Extensible Business Reporting Language ('XBRL') instance file and the
   associated collection of files that defines its 'Discoverable' Taxonomy
-  Set ('DTS'). (Updated (JTFJ): to use HTTPS/HTTP Schema Files, 
+  Set ('DTS'). (Updated (JTFJ): to use HTTPS/HTTP Schema Files)
 License: GPL (>= 2)
 Imports: utils, Rcpp (>= 0.10.4)
 SystemRequirements: libxml2 (>= 2.9.1)
 LinkingTo: Rcpp
 NeedsCompilation: yes
 Packaged: 2017-03-27 17:18:01 UTC; mame
-Repository: CRAN, Github
+Repository: CRAN
 Date/Publication: 2020-04-23 08:45:35 UTC
